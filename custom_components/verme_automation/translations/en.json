@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Verme Automation Setup",
+        "description": "Configure your MQTT broker connection for Verme Automation devices.",
+        "data": {
+          "mqtt_host": "MQTT Broker Host/IP",
+          "mqtt_port": "MQTT Broker Port",
+          "mqtt_username": "MQTT Username",
+          "mqtt_password": "MQTT Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to MQTT broker. Please check your settings.",
+      "unknown": "Unexpected error occurred"
+    }
+  }
+}
